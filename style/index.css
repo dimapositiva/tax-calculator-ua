@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  height: 3em;
+  display: grid;
+  grid-template-columns: 20% 70%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 1em 0 1em 0;
+}
+
+#header-logo {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-img {
+  width: 2em;
+  margin-left: 3em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-links-list {
+  margin-right: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 10%);
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
